@@ -1,0 +1,53 @@
+.logo,
+.logo:hover {
+  color: #2638a9;
+}
+
+.logoSize {
+  width: 32px;
+  height: 34px;
+}
+
+.nav-logoSize {
+  width: 20px;
+  height: 22px;
+}
+
+.nav-link {
+  font-size: 14px;
+  font-weight: bold;
+  color: #0d6efd;
+  transition-duration: 0.3s;
+  transition-property: color;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  color: #000;
+}
+
+.more-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.dropdown-item {
+  font-size: 14px;
+  font-weight: bold;
+  color: #0d6efd;
+  transition-duration: 0.3s;
+  transition-property: color;
+}
+
+.dropdown-item:hover {
+  cursor: pointer;
+  color: #000;
+}
+
+.dropdown-menu[data-bs-popper] {
+  left: -6.5rem;
+}
+
+.dropdown-menu.show {
+  min-width: 8em;
+}
